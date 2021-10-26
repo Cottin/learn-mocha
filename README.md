@@ -1,4 +1,4 @@
-# Learn about Github Actions
+# Learn about mocha and unit tests
 Quick exercise to try out mocha and write your first unit tests.
 
 
