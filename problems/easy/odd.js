@@ -4,7 +4,7 @@
 
 const odd = (xs) => {
 	// Your code here...
-	return xs.filter(x => x % 2 !== 0)
+	return []
 }
 
 

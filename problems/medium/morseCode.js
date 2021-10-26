@@ -54,16 +54,9 @@ const morseAlphabet = {
 
 const morseCode = (s) => {
   // Your code here...
-  return R.pipe(R.map(x => morseAlphabet[x]), R.join(' '))(s)
+  return ''
 }
 
-const tests = [
-  [morseCode, ['abc'], '.- -... -.-.'],
-  [morseCode, ['quick'], '--.- ..- .. -.-. -.-'],
-  [morseCode, ['the quick brown fox'], '- .... .  --.- ..- .. -.-. -.-  -... .-. --- .-- -.  ..-. --- -..-'],
-  [morseCode, ['svelte is better than react'], '... ...- . .-.. - .  .. ...  -... . - - . .-.  - .... .- -.  .-. . .- -.-. -'],
-]
-
-export default tests
+export default morseCode
 
 
