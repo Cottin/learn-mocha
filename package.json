@@ -13,6 +13,6 @@
     "mocha": "^9.1.3"
   },
   "scripts": {
-    "test": "mocha ./problems/**/test*.js --exit"
+    "test": "mocha ./problems/**/test*.js --parallel --watch"
   }
 }
